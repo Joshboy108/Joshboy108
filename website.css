@@ -3,7 +3,7 @@
 
 body {
 	font-family: Arial, sans-serif;
-	background-color: black;
+	background-color: rebeccapurple;
 }
 
 h2 {
@@ -93,8 +93,8 @@ h2 {
 	background-color: skyblue;
 }
 
-h2 {
-        font-size: 75px; 
+h3 {
+        font-size: 60px; 
          font-family: sans-serif;
         background: linear-gradient(to right, rgba(255, 215, 255, 0) 0%, rgba(225, 255, 255, 0.5) 20%, rgba(255, 255, 255, 0) 61%), linear-gradient(rgb(97, 183, 217) 52%, rgb(224, 246, 255) 60%, rgb(78, 99, 132) 61%);
         background-clip: text; 
@@ -110,4 +110,16 @@ h2 {
         100% {
           background-position: 50vw 10px;
         }
+      }
+
+      .logo {
+      	width: 100%;
+      }
+
+      h5 { color: white;
+      	font-weight: bold;
+       }
+
+      .white {
+      	color: white;
       }
